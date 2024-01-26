@@ -13,11 +13,24 @@
         <action
             android:id="@+id/action_LoadingFragment_to_LoginFragment"
             app:destination="@id/LoginFragment" />
+        <action
+            android:id="@+id/action_LoadingFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
     </fragment>
 
     <fragment
         android:id="@+id/LoginFragment"
         android:name="com.beatareka.jwtlogin.view.LoginFragment"
         android:label="@string/login_fragment_label"
-        tools:layout="@layout/fragment_login" />
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_LoginFragment_to_HomeFragment"
+            app:destination="@id/HomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/HomeFragment"
+        android:name="com.beatareka.jwtlogin.view.HomeFragment"
+        android:label="@string/home_fragment_label"
+        tools:layout="@layout/fragment_home" />
 </navigation>

@@ -5,4 +5,6 @@
     <string name="login_fragment_label">Login</string>
     <string name="login">Login</string>
     <string name="loading_fragment_label">Loading</string>
+    <string name="welcome">Welcome!</string>
+    <string name="home_fragment_label">Home</string>
 </resources>
