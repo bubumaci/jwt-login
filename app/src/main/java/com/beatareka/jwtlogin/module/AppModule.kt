@@ -78,4 +78,9 @@ object AppModule {
         return Gson()
     }
 
+    @Singleton
+    @Provides
+    fun providesUserMapper(gson: Gson): UserMapper {
+        return UserMapper(gson)
+    }
 }
