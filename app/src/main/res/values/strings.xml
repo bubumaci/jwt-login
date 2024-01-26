@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JWT Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_fragment_label">Login</string>
+    <string name="login">Login</string>
 </resources>
